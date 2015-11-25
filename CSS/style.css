@@ -1,0 +1,73 @@
+body {
+	background-image: url("../image/image.png");
+	background-attachment:fixed;
+	clear:both;
+}
+header h1 { 
+    color:#79a5a8;
+   text-align:center;
+   
+  
+}
+p{
+     color:black;
+   text-align:center;
+}
+
+
+
+td{
+	padding-top:4px;
+	text-align:justify;
+}
+.en_tete{
+	display:inline-block;
+	
+}
+
+a{
+
+top: 10px; 
+left:10px;
+}
+main{
+    text-align:left;
+  ;
+}
+
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'GoodDog';
+    src: url("GoodDog.eot");
+    src: url("GoodDog-webfont.eot?#iefix") format('embedded-opentype'),
+         url('GoodDog-webfont.woff') format('woff'),
+         url('GoodDog-webfont.ttf') format('truetype'),
+         url('GoodDog-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+
+
+
+
+    
+.liseret
+{
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: black;
+    margin : 0%;
+    margin-right : 40px;
+    padding : 0%;
+}
+     section
+{
+    display: inline-block;
+    vertical-align: top;
+    border: 2px #4c2900 solid;
+    border-radius: 10px;
+    background-color: rgba(76,41,0,0.2);
+    padding: 5px 25px 5px 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px #4c2900;
+}
+ 
